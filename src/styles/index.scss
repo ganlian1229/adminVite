@@ -1,0 +1,149 @@
+@import './transition.scss';
+/* 公用样式 */
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+textarea,
+p,
+th,
+td,
+em,
+button,
+blockquote {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft YaHei';
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th,
+ul,
+ol {
+    padding: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+
+em,
+b {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+
+button,
+input,
+select,
+textarea {
+    outline: none;
+    font-family: 'Microsoft Yahei';
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* link */
+
+a {
+    color: #666;
+    text-decoration: none;
+    font-size: 18px;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
