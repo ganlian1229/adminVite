@@ -27,8 +27,7 @@ module.exports = {
         'no-console': 'off', // 禁止使用console
         'no-debugger': 'off', // 禁止使用debugger
         'no-empty-source': 'off',
-        // 使用四个空格进行缩进，
-        indent: [4, 4],
+        indent: ['warn', 4], // 使用四个空格进行缩进，
         'no-unused-vars': 'off' // 不能有声明后未被使用的变量或参数
     }
 };
