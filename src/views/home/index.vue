@@ -1,6 +1,7 @@
 <template>
     <div class="home-view">
         <h2 class="title">{{ msg }}</h2>
+        <div class="test"></div>
     </div>
 </template>
 
@@ -21,6 +22,12 @@ setInterval(() => {
     .title {
         color: v-bind('h2Style.color');
         text-align: center;
+    }
+    .test {
+        width: 20px;
+        height: 20px;
+        background-image: url($bgimg + 'logo.png');
+        background-size: 100% 100%;
     }
 }
 </style>
