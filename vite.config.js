@@ -29,7 +29,8 @@ export default defineConfig(({ command }) => {
             }
         },
         server: {
-            port: 80,
+            port: 8093,
+            host: '0.0.0.0',
             open: false
             // proxy: {
             //     '/api': {
