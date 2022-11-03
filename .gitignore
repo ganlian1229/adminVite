@@ -25,3 +25,5 @@ yarn.lock
 pnpm-lock.yaml
 pnpm-lock.yaml
 src/auto-imports.d.ts
+pnpm-lock.yaml
+src/auto-imports.d.ts

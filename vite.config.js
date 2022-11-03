@@ -43,7 +43,7 @@ export default defineConfig(({ command }) => {
         },
         build: {
             // 浏览器兼容性  "esnext"|"modules"
-            target: 'modules',
+            target: 'esnext',
             // 指定输出路径
             outDir: 'dist',
             // 禁用 CSS 代码拆分,将整个项目中的所有 CSS 将被提取到一个 CSS 文件中
